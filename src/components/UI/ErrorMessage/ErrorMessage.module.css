@@ -1,0 +1,12 @@
+.errorMessage {
+  font-weight: 800;
+  font-size: 35px;
+  color: red;
+  width: 100%;
+  height: 100vh;
+}
+
+.buttonReload {
+  margin-left: 20px;
+  padding: 7px;
+}

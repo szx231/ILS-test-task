@@ -1,0 +1,49 @@
+{
+  "name": "logistic-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "server": "json-server --port 3002 -w server/db.json",
+    "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "antd": "^5.7.2",
+    "json-server": "^0.17.3",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.10",
+    "react-leaflet": "^4.2.1",
+    "react-leaflet-cluster": "^2.1.0",
+    "react-redux": "^8.1.1",
+    "redux-saga": "^1.2.3"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.3",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "prettier": "^2.7.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
